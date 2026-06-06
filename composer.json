@@ -27,21 +27,21 @@
     },
     "autoload": {
         "psr-4": {
-            "FelixMuhoro\\MpesaInvoices\\": "src/"
+            "FelixMuhoro\\\\\MpesaInvoices\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "FelixMuhoro\\MpesaInvoices\\Tests\\": "tests/"
+            "FelixMuhoro\\\\\MpesaInvoices\\\\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "FelixMuhoro\\MpesaInvoices\\MpesaInvoicesServiceProvider"
+                "FelixMuhoro\\\\\MpesaInvoices\\\\\MpesaInvoicesServiceProvider"
             ],
             "aliases": {
-                "MpesaInvoice": "FelixMuhoro\\MpesaInvoices\\Facades\\MpesaInvoice"
+                "MpesaInvoice": "FelixMuhoro\\\\\MpesaInvoices\\\\\Facades\\\\\MpesaInvoice"
             }
         }
     },
