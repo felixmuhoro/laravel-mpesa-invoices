@@ -2,7 +2,13 @@
     "name": "felixmuhoro/laravel-mpesa-invoices",
     "description": "Auto-generates professional PDF invoices for M-Pesa payments and stores/emails them",
     "type": "library",
-    "keywords": ["laravel", "mpesa", "invoice", "pdf", "kenya"],
+    "keywords": [
+        "laravel",
+        "mpesa",
+        "invoice",
+        "pdf",
+        "kenya"
+    ],
     "homepage": "https://github.com/felixmuhoro/laravel-mpesa-invoices",
     "license": "MIT",
     "authors": [
@@ -27,21 +33,21 @@
     },
     "autoload": {
         "psr-4": {
-            "FelixMuhoro\\\\\MpesaInvoices\\": "src/"
+            "FelixMuhoro\\MpesaInvoices\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "FelixMuhoro\\\\\MpesaInvoices\\\\\Tests\\": "tests/"
+            "FelixMuhoro\\MpesaInvoices\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "FelixMuhoro\\\\\MpesaInvoices\\\\\MpesaInvoicesServiceProvider"
+                "FelixMuhoro\\MpesaInvoices\\MpesaInvoicesServiceProvider"
             ],
             "aliases": {
-                "MpesaInvoice": "FelixMuhoro\\\\\MpesaInvoices\\\\\Facades\\\\\MpesaInvoice"
+                "MpesaInvoice": "FelixMuhoro\\\\\\MpesaInvoices\\\\\\Facades\\\\\\MpesaInvoice"
             }
         }
     },
